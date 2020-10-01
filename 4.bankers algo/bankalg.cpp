@@ -70,6 +70,6 @@ int main()
     cout<<"enter availability of A, B and C\n";
     for(i=0;i<m;i++)
         cin>>av[i];
-//     disp(alloc,max);
+    disp(alloc,max);
     bkl(alloc,max,av);
 }
